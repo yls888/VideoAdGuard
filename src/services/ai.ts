@@ -18,7 +18,7 @@ export class AIService {
         },
       ],
       temperature: 0,
-      max_tokens: 1024,
+      max_tokens: 65536,
       stream: false,
       ...config.bodyExtra,
     };
